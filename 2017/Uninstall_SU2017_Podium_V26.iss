@@ -40,7 +40,6 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 [InstallDelete]
 Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumExtras"
 Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumExtras.rb"
-; Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumHDR"
 Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V26"
 Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V26.rb"
 Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V25"
@@ -49,7 +48,6 @@ Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Style
 
 Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumExtras"
 Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumExtras.rb"
-; Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumHDR"
 Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V26"
 Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V26.rb"
 Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V25"

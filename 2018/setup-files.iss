@@ -27,7 +27,6 @@ Source: "Package/SU_Podium_V26/SU_Podium_V26/programs/IE/imageformats/*"; DestDi
 Source: "Package/SU_Podium_V26/SU_Podium_V26/programs/IE/platforms/*"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs/IE/platforms";
 Source: "Package/SU_Podium_V26/SU_Podium_V26/programs/imageformats/*"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs/imageformats";
 Source: "Package/SU_Podium_V26/*"; DestDir: "{app}/SU_Podium_V26/";
-; Source: "Package/PodiumExtras/*"; DestDir: "{app}/PodiumExtras/";
 Source: "Package/PodiumExtras/PodiumExtras/*"; DestDir: "{app}/PodiumExtras/PodiumExtras/";
 Source: "Package/PodiumHDR/*"; DestDir: "{app}/PodiumHDR/";
 Source: "Package/PodiumTemp/*"; DestDir: "{app}/PodiumTemp/";

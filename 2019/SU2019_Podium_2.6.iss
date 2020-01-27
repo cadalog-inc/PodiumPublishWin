@@ -71,21 +71,6 @@ Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/PE/PresetEditor.exe"; De
 Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/PE/QtCore4.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs/PE";
 Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/PE/QtGui4.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs/PE";
 Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/PE/QtNetwork4.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs/PE";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/kray64.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/OOPR.exe"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/LicenseManager.exe"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/msvcp90.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/msvcr90.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/QtCore4.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/QtGui4.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/QtNetwork4.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/QtCore4.dll"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/PresetEditor.exe"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/Microsoft.VC90.CRT.manifest"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/oopr_tr_ja.qm"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/license_tr_ja.qm"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/programs";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/msvcp110.dll"; DestDir: "{pf64}/SketchUp/SketchUp 2019";
-;Source: "./Package/SU_Podium_V26/SU_Podium_V26/programs/msvcr110.dll"; DestDir: "{pf64}/SketchUp/SketchUp 2019";
 
 Source: "./Package/SU_Podium_V26/SU_Podium_V26/presets/1_exterior_default_2.0.pps"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./Package/SU_Podium_V26/SU_Podium_V26/presets/1_exterior_default_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
