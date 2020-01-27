@@ -70,6 +70,7 @@ Source: "SU_Podium_V26/plug_in/dialogs/license-manager-app/*"; DestDir: "{app}/S
 Source: "SU_Podium_V26/plug_in/dialogs/license-manager-app/bootstrap/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/bootstrap/";
 Source: "SU_Podium_V26/plug_in/dialogs/license-manager-app/static/css/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/static/css/";
 Source: "SU_Podium_V26/plug_in/dialogs/license-manager-app/static/js/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/static/js/";
+Source: "SU_Podium_V26/plug_in/extras/*"; DestDir: "{app}/SU_Podium_V26/plug_in/extras/";
 Source: "SU_Podium_V26/plug_in/lib/*"; DestDir: "{app}/SU_Podium_V26/plug_in/lib";
 Source: "SU_Podium_V26/plug_in/models/*"; DestDir: "{app}/SU_Podium_V26/plug_in/models";
 Source: "SU_Podium_V26/plug_in/PodiumSections/*"; DestDir: "{app}/SU_Podium_V26/plug_in/PodiumSections";
@@ -103,9 +104,7 @@ Source: "./SU_Podium_V26/programs/PE/QtGui4.dll"; DestDir: "{app}/SU_Podium_V26/
 Source: "./SU_Podium_V26/programs/PE/QtNetwork4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
 
 Source: "./SU_Podium_V26/presets/1_exterior_default_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/1_exterior_default_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/1_exterior_fine_AA_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/1_exterior_fine_AA_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/1_exterior_high_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/1_exterior_QMC_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/2_interior_bright_default_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
@@ -113,9 +112,7 @@ Source: "./SU_Podium_V26/presets/2_interior_bright_fine_AA_2.1.pps"; DestDir: "{
 Source: "./SU_Podium_V26/presets/2_interior_bright_high_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/2_interior_bright_QMC_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/3_Interior_default_1.0.5.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/3_Interior_default_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/3_Interior_fine_AA_1.0.5.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/3_Interior_fine_AA_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/3_Interior_high_1.0.8.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/3_interior_QMC_1.0.3.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 Source: "./SU_Podium_V26/presets/default.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
