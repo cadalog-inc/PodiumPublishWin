@@ -9,7 +9,6 @@ Source: "Package/SU_Podium_V26/plug_in/dialogs/license-manager-app/*"; DestDir: 
 Source: "Package/SU_Podium_V26/plug_in/dialogs/license-manager-app/bootstrap/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/bootstrap/";
 Source: "Package/SU_Podium_V26/plug_in/dialogs/license-manager-app/static/css/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/static/css/";
 Source: "Package/SU_Podium_V26/plug_in/dialogs/license-manager-app/static/js/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/static/js/";
-Source: "Package/SU_Podium_V26/plug_in/extensions/*"; DestDir: "{app}/SU_Podium_V26/plug_in/extensions";
 Source: "Package/SU_Podium_V26/plug_in/lib/*"; DestDir: "{app}/SU_Podium_V26/plug_in/lib";
 Source: "Package/SU_Podium_V26/plug_in/models/*"; DestDir: "{app}/SU_Podium_V26/plug_in/models";
 Source: "Package/SU_Podium_V26/plug_in/PodiumSections/*"; DestDir: "{app}/SU_Podium_V26/plug_in/PodiumSections";
@@ -27,6 +26,7 @@ Source: "Package/SU_Podium_V26/programs/IE/imageformats/*"; DestDir: "{app}/SU_P
 Source: "Package/SU_Podium_V26/programs/IE/platforms/*"; DestDir: "{app}/SU_Podium_V26/programs/IE/platforms";
 Source: "Package/SU_Podium_V26/programs/imageformats/*"; DestDir: "{app}/SU_Podium_V26/programs/imageformats";
 Source: "Package/SU_Podium_V26/*"; DestDir: "{app}/SU_Podium_V26/";
+Source: "Package/SU_Podium_V26/extensions/*"; DestDir: "{app}/SU_Podium_V26/extensions";
 Source: "Package/SU_Podium_V26/Extras/*"; DestDir: "{app}/SU_Podium_V26/Extras/";
 Source: "Package/SU_Podium_V26/HDR/*"; DestDir: "{app}/SU_Podium_V26/HDR/";
 Source: "Package/SU_Podium_V26/Temp/*"; DestDir: "{app}/SU_Podium_V26/Temp/";

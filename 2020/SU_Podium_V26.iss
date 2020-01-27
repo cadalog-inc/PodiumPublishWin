@@ -5,12 +5,12 @@
 
 [Setup]
 AppId={{F79F91FD-C2D3-4B26-87E2-AF54D6510753}
-AppName= SU2017 Podium V2.6.043 Plus
-AppVerName= SU2017 Podium V2.6.043 Plus {#AppVersion}
+AppName= SU2020 Podium V2.6.043 Plus
+AppVerName= SU2020 Podium V2.6.043 Plus {#AppVersion}
 AppVersion={#AppVersion}
 VersionInfoVersion={#AppVersion}
 UsePreviousAppDir=no
-DefaultDirName={commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins
+DefaultDirName={commonappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins
 DirExistsWarning=no
 DefaultGroupName= SU Podium V2.6.043 Plus
 UninstallFilesDir={app}\SU_Podium_V26\SU_Podium_V26\uninst
@@ -22,7 +22,7 @@ DisableWelcomePage=no
 ShowLanguageDialog=yes
 AppPublisher=Cadalog Inc.
 AppPublisherURL=http://www.cadalog.com/
-OutputBaseFilename=SU2017_Podium_V{#AppVersion}_x64
+OutputBaseFilename=SU2020_Podium_V{#AppVersion}_x64
 ShowUndisplayableLanguages=no
 DisableProgramGroupPage=yes
 LicenseFile=license.txt
@@ -41,21 +41,21 @@ cht.BeveledLabel=ChineseTraditional
 
 [InstallDelete]
 ; Type: files; Name: "{app}/SU_Podium_V26/presets/*";
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumExtras"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumExtras.rb"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V26"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V26.rb"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V25"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V25.rb"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2017\SketchUp\Styles\Podium"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\PodiumExtras"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\PodiumExtras.rb"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\SU_Podium_V26"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\SU_Podium_V26.rb"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\SU_Podium_V25"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\SU_Podium_V25.rb"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2020\SketchUp\Styles\Podium"
 
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumExtras"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\PodiumExtras.rb"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V26"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V26.rb"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V25"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins\SU_Podium_V25.rb"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Styles\Podium"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\PodiumExtras"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\PodiumExtras.rb"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\SU_Podium_V26"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\SU_Podium_V26.rb"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\SU_Podium_V25"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2020\SketchUp\Plugins\SU_Podium_V25.rb"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2020\SketchUp\Styles\Podium"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Files]

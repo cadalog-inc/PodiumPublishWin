@@ -61,7 +61,6 @@ Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2018\SketchUp\Sty
 [Files]
 #include "setup-files.iss"
 Source: "./Package/SU_Podium_V26/Podium/*"; DestDir: "{app}/../Styles/Podium";
-; Source: "./Package/SU_Podium_V26/programs/license"; DestDir: "{app}/SU_Podium_V26/programs"; Permissions: users-modify; Flags: onlyifdoesntexist;
 Source: "./Package/SU_Podium_V26/programs/PE/msvcp90.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
 Source: "./Package/SU_Podium_V26/programs/PE/msvcp110.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
 Source: "./Package/SU_Podium_V26/programs/PE/msvcr71.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
@@ -92,11 +91,11 @@ Source: "./Package/SU_Podium_V26/presets/default.pps"; DestDir: "{app}/SU_Podium
 Source: "./Package/SU_Podium_V26/presets/materials.csv"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 
 ;podium extras
-Source: Package/SU_Podium_V26/Extras/Cubic/Cubic.so;                                        DestDir: "{app}/SU_Podium_V26/Extras/Cubic"; Flags: ignoreversion
-Source: Package/SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes/GenerateAllScenes.so;       DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes"; Flags: ignoreversion
+Source: Package/SU_Podium_V26/Extras/Cubic/Cubic.so;    DestDir: "{app}/SU_Podium_V26/Extras/Cubic"; Flags: ignoreversion
+Source: Package/SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes/GenerateAllScenes.so;   DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes"; Flags: ignoreversion
 Source: Package/SU_Podium_V26/Extras/SU_PodiumLightFixtureOutliner/LightFixtureOutliner.so; DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumLightFixtureOutliner"; Flags: ignoreversion
-Source: Package/SU_Podium_V26/Extras/SU_PodiumRenderAllScenes/RenderAllScenes.so;           DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumRenderAllScenes"; Flags: ignoreversion
-Source: Package/SU_Podium_V26/Extras/*;                                           			 DestDir: "{app}/SU_Podium_V26/Extras/"; Flags: ignoreversion
+Source: Package/SU_Podium_V26/Extras/SU_PodiumRenderAllScenes/RenderAllScenes.so;   DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumRenderAllScenes"; Flags: ignoreversion
+Source: Package/SU_Podium_V26/Extras/*; DestDir: "{app}/SU_Podium_V26/Extras/"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\Website"; Filename: "http://www.suplugins.com/"
