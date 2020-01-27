@@ -1,0 +1,52 @@
+﻿ Cadalog,Inc. Software License Agreement
+
+The terms and conditions that follow set forth a legal agreement (“Agreement”) between you (either an individual or an entity), the end user, and Cadalog, Inc., a Washington state corporation with its principal place of business at 1448 King Street, Bellingham WA. 98229 USA ("Cadalog, Inc."), relating to this computer software program and certain other software licensed by Cadalog, Inc.    The term "Software" includes and these terms and conditions also apply to (i) any updates or upgrades to the Software that you may receive from time to time, and (ii) any add-in modules to the Software you may order and install from time to time. You may not load or use the Software in any computer or copy it without a license from Cadalog, Inc.  Cadalog, Inc. hereby offers you a non-exclusive license on the terms set out in this Agreement.  You should carefully read these terms and conditions BEFORE installing the Software.  Installing the Software will signify your agreement to be bound by these terms and conditions.
+    
+Grant of License.  
+
+Cadalog, Inc. grants to you a non-exclusive non-transferable license to use the Software and the printed and/or electronic user documentation (the "Documentation") accompanying the Software in accordance with this Agreement.  If you have paid the license fee for a single user license, this Agreement permits you to install and use one copy of the Software on any single computer at any time (i.e., if you change computers, you must un-install the Software from the old computer before installing it on the new computer).  
+
+Use on a network
+
+There is no special network license or floating license for the Software.  
+You must purchase one license for every user that intends to use the software.  Bear in mind that large price discounts are offered by Cadalog,Inc. for purchase of multiple licenses.
+    
+Use at home
+
+If the Software is permanently installed on the hard disk or other storage device of a computer and one person uses that computer more than 50% of the time it is in use, 
+then that person may also use the Software on a portable or home computer while the original copy is not in use.  
+
+Backup
+
+You may and are encouraged to copy a back up of the installation file of the software and the serial number that is needed for the software to run, so that if you change computers or have hardware failure, you can reinstall the software, subject to the same license agreement.
+ 
+You will keep accurate and up-to-date records of the numbers and locations of all copies of the Software, will supervise and control the use of the Software in accordance with the terms of this Agreement and will provide copies of such records to Cadalog, Inc. upon reasonable request.
+
+This license is not a sale. Title and copyrights to the program, accompanying documentation, or failure to comply with the above restrictions, will result in automatic termination of this license and will make available to Cadalog, Inc. other legal remedies.
+
+GENERAL
+
+This agreement will be governed by the laws of the State of Washington.
+
+This Agreement is the entire agreement between us and supersedes any other communications or advertising with respect to the program and accompanying documentation.
+
+If you have any questions please contact in writing:
+
+     Cadalog, Inc.
+     Customer Service
+     1448 King Street
+     Bellingham, WA 98229 USA
+
+Limited Warranty and Disclaimer
+
+Cadalog, Inc. warrants that, for a period of 10 days from the date of delivery to you as evidenced by a copy of your receipt, the CDs or download file on which the program is furnished under normal use will be free from defects and without significant errors that make it un-installable. Cadalog, Inc's  entire liability and your exclusive remedy under this warranty (which is subject to you returning the program to Cadalog, Inc. or an authorized dealer with a copy of your receipt) will be, at Cadalog Inc's option, to attempt to correct or help you around the install errors with efforts which Cadalog Inc. believes suitable to the problem, to replace the program with functionally equivalent software as applicable, or to refund the purchase price and terminate this Agreement.
+
+EXCEPT FOR THE ABOVE EXPRESS LIMITED WARRANTIES, CADALOG, INC. MAKES AND YOU RECEIVE NO WARRANTIES, NO REFUNDS, EXPRESSLY IMPLIED STATUTORY OR IN ANY COMMUNICATION WITH YOU, AND CADALOG SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. CADALOG, INC DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE UNINTERRUPTED OR ERROR FREE.
+
+LIMITATION OF LIABILITY
+
+IN NO EVENT WILL CADALOG, INC. BE LIABLE FOR ANY DAMAGES, INCLUDING LOSS OF DATA, LOST PROFITS, COST OF COVER OR OTHER SPECIAL, INCIDENTAL, CONSEQUENTIAL OR INDIRECT DAMAGES ARISING FROM THE USE OF THE PROGRAM OR ACCOMPANYING DOCUMENTATION, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY. THIS LIMITATION WILL APPLY EVEN IF CADALOG, INC. OR AN AUTHORIZED DEALER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. YOU ACKNOWLEDGE THAT THE LICENSE FEE REFLECTS THIS ALLOCATION OF RISK. SOME STATES DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+TERMINATION
+
+You may terminate these Terms and Conditions at any time by permanently deleting the Software in its entirety.  Your rights automatically and immediately terminate without notice from Cadalog, Inc. if you fail to comply with any provision of these Terms and Conditions.  In such event, you must immediately delete the Software.  However, no refund will be offered once the software has been installed.
