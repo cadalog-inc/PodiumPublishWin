@@ -59,43 +59,74 @@ Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2017\SketchUp\Sty
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Files]
-#include "setup-files.iss"
-Source: "./Package/SU_Podium_V26/Podium/*"; DestDir: "{app}/../Styles/Podium";
-Source: "./Package/SU_Podium_V26/programs/PE/msvcp90.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
-Source: "./Package/SU_Podium_V26/programs/PE/msvcp110.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
-Source: "./Package/SU_Podium_V26/programs/PE/msvcr71.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
-Source: "./Package/SU_Podium_V26/programs/PE/msvcr90.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
-Source: "./Package/SU_Podium_V26/programs/PE/msvcr110.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
-Source: "./Package/SU_Podium_V26/programs/PE/PresetEditor.exe"; DestDir: "{app}/SU_Podium_V26/programs/PE";
-Source: "./Package/SU_Podium_V26/programs/PE/QtCore4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
-Source: "./Package/SU_Podium_V26/programs/PE/QtGui4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
-Source: "./Package/SU_Podium_V26/programs/PE/QtNetwork4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "SU_Podium_V26.rb"; DestDir: "{app}/";
+Source: "SU_Podium_V26/locale/*"; DestDir: "{app}/SU_Podium_V26/locale";
+Source: "SU_Podium_V26/plug_in/*"; DestDir: "{app}/SU_Podium_V26/plug_in";
+Source: "SU_Podium_V26/plug_in/components/*"; DestDir: "{app}/SU_Podium_V26/plug_in/components";
+Source: "SU_Podium_V26/plug_in/controllers/*"; DestDir: "{app}/SU_Podium_V26/plug_in/controllers";
+Source: "SU_Podium_V26/plug_in/dialogs/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/";
+Source: "SU_Podium_V26/plug_in/dialogs/options-app/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/options-app/";
+Source: "SU_Podium_V26/plug_in/dialogs/license-manager-app/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/";
+Source: "SU_Podium_V26/plug_in/dialogs/license-manager-app/bootstrap/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/bootstrap/";
+Source: "SU_Podium_V26/plug_in/dialogs/license-manager-app/static/css/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/static/css/";
+Source: "SU_Podium_V26/plug_in/dialogs/license-manager-app/static/js/*"; DestDir: "{app}/SU_Podium_V26/plug_in/dialogs/license-manager-app/static/js/";
+Source: "SU_Podium_V26/plug_in/lib/*"; DestDir: "{app}/SU_Podium_V26/plug_in/lib";
+Source: "SU_Podium_V26/plug_in/models/*"; DestDir: "{app}/SU_Podium_V26/plug_in/models";
+Source: "SU_Podium_V26/plug_in/PodiumSections/*"; DestDir: "{app}/SU_Podium_V26/plug_in/PodiumSections";
+Source: "SU_Podium_V26/plug_in/processors/*"; DestDir: "{app}/SU_Podium_V26/plug_in/processors";
+Source: "SU_Podium_V26/plug_in/views/html/images/*"; DestDir: "{app}/SU_Podium_V26/plug_in/views/html/images";
+Source: "SU_Podium_V26/presets/*"; DestDir: "{app}/SU_Podium_V26/presets";
+Source: "SU_Podium_V26/programs/*"; DestDir: "{app}/SU_Podium_V26/programs";
+Source: "SU_Podium_V26/programs/bearer/*"; DestDir: "{app}/SU_Podium_V26/programs/bearer";
+Source: "SU_Podium_V26/programs/iconengines/*"; DestDir: "{app}/SU_Podium_V26/programs/iconengines";
+Source: "SU_Podium_V26/programs/imageformats/*"; DestDir: "{app}/SU_Podium_V26/programs/imageformats";
+Source: "SU_Podium_V26/programs/platforms/*"; DestDir: "{app}/SU_Podium_V26/programs/platforms";
+Source: "SU_Podium_V26/programs/translations/*"; DestDir: "{app}/SU_Podium_V26/programs/translations";
+Source: "SU_Podium_V26/programs/IE/*"; DestDir: "{app}/SU_Podium_V26/programs/IE";
+Source: "SU_Podium_V26/programs/IE/imageformats/*"; DestDir: "{app}/SU_Podium_V26/programs/IE/imageformats";
+Source: "SU_Podium_V26/programs/IE/platforms/*"; DestDir: "{app}/SU_Podium_V26/programs/IE/platforms";
+Source: "SU_Podium_V26/programs/imageformats/*"; DestDir: "{app}/SU_Podium_V26/programs/imageformats";
+Source: "SU_Podium_V26/extensions/*"; DestDir: "{app}/SU_Podium_V26/extensions";
+Source: "SU_Podium_V26/Extras/*"; DestDir: "{app}/SU_Podium_V26/Extras/";
+Source: "SU_Podium_V26/HDR/*"; DestDir: "{app}/SU_Podium_V26/HDR/";
+Source: "SU_Podium_V26/Temp/*"; DestDir: "{app}/SU_Podium_V26/Temp/";
 
-Source: "./Package/SU_Podium_V26/presets/1_exterior_default_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/1_exterior_default_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/1_exterior_fine_AA_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/1_exterior_fine_AA_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/1_exterior_high_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/1_exterior_QMC_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/2_interior_bright_default_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/2_interior_bright_fine_AA_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/2_interior_bright_high_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/2_interior_bright_QMC_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/3_Interior_default_1.0.5.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/3_Interior_default_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/3_Interior_fine_AA_1.0.5.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/3_Interior_fine_AA_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/3_Interior_high_1.0.8.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/3_interior_QMC_1.0.3.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/default.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./Package/SU_Podium_V26/presets/materials.csv"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/Podium/*"; DestDir: "{app}/../Styles/Podium";
+Source: "./SU_Podium_V26/programs/PE/msvcp90.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "./SU_Podium_V26/programs/PE/msvcp110.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "./SU_Podium_V26/programs/PE/msvcr71.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "./SU_Podium_V26/programs/PE/msvcr90.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "./SU_Podium_V26/programs/PE/msvcr110.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "./SU_Podium_V26/programs/PE/PresetEditor.exe"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "./SU_Podium_V26/programs/PE/QtCore4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "./SU_Podium_V26/programs/PE/QtGui4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+Source: "./SU_Podium_V26/programs/PE/QtNetwork4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
+
+Source: "./SU_Podium_V26/presets/1_exterior_default_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_default_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_fine_AA_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_fine_AA_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_high_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_QMC_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/2_interior_bright_default_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/2_interior_bright_fine_AA_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/2_interior_bright_high_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/2_interior_bright_QMC_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_Interior_default_1.0.5.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_Interior_default_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_Interior_fine_AA_1.0.5.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_Interior_fine_AA_2_HDR.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_Interior_high_1.0.8.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_interior_QMC_1.0.3.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/default.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/materials.csv"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 
 ;podium extras
-Source: Package/SU_Podium_V26/Extras/Cubic/Cubic.so;    DestDir: "{app}/SU_Podium_V26/Extras/Cubic"; Flags: ignoreversion
-Source: Package/SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes/GenerateAllScenes.so;   DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes"; Flags: ignoreversion
-Source: Package/SU_Podium_V26/Extras/SU_PodiumLightFixtureOutliner/LightFixtureOutliner.so; DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumLightFixtureOutliner"; Flags: ignoreversion
-Source: Package/SU_Podium_V26/Extras/SU_PodiumRenderAllScenes/RenderAllScenes.so;   DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumRenderAllScenes"; Flags: ignoreversion
-Source: Package/SU_Podium_V26/Extras/*; DestDir: "{app}/SU_Podium_V26/Extras/"; Flags: ignoreversion
+Source: SU_Podium_V26/Extras/Cubic/Cubic.so;    DestDir: "{app}/SU_Podium_V26/Extras/Cubic"; Flags: ignoreversion
+Source: SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes/GenerateAllScenes.so;   DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes"; Flags: ignoreversion
+Source: SU_Podium_V26/Extras/SU_PodiumLightFixtureOutliner/LightFixtureOutliner.so; DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumLightFixtureOutliner"; Flags: ignoreversion
+Source: SU_Podium_V26/Extras/SU_PodiumRenderAllScenes/RenderAllScenes.so;   DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumRenderAllScenes"; Flags: ignoreversion
+Source: SU_Podium_V26/Extras/*; DestDir: "{app}/SU_Podium_V26/Extras/"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\Website"; Filename: "http://www.suplugins.com/"
