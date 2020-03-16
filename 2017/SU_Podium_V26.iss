@@ -1,18 +1,18 @@
 ; -- SU_Podium_V2.iss --
-; Install script for  SU Podium V2.6.043 Plus
+; Install script for  SU Podium V2.6.044 Plus
 
- #define AppVersion "2.6.043"
+ #define AppVersion "2.6.044"
 
 [Setup]
 AppId={{F79F91FD-C2D3-4B26-87E2-AF54D6510753}
-AppName= SU2017 Podium V2.6.043 Plus
-AppVerName= SU2017 Podium V2.6.043 Plus {#AppVersion}
+AppName= SU2017 Podium V2.6.044 Plus
+AppVerName= SU2017 Podium V2.6.044 Plus {#AppVersion}
 AppVersion={#AppVersion}
 VersionInfoVersion={#AppVersion}
 UsePreviousAppDir=no
 DefaultDirName={commonappdata}\SketchUp\SketchUp 2017\SketchUp\Plugins
 DirExistsWarning=no
-DefaultGroupName= SU Podium V2.6.043 Plus
+DefaultGroupName= SU Podium V2.6.044 Plus
 UninstallFilesDir={app}\SU_Podium_V26\SU_Podium_V26\uninst
 Compression=zip
 SolidCompression=yes
@@ -103,20 +103,20 @@ Source: "./SU_Podium_V26/programs/PE/QtCore4.dll"; DestDir: "{app}/SU_Podium_V26
 Source: "./SU_Podium_V26/programs/PE/QtGui4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
 Source: "./SU_Podium_V26/programs/PE/QtNetwork4.dll"; DestDir: "{app}/SU_Podium_V26/programs/PE";
 
-Source: "./SU_Podium_V26/presets/1_exterior_default_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/1_exterior_fine_AA_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/1_exterior_high_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/1_exterior_QMC_2.0.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/2_interior_bright_default_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/2_interior_bright_fine_AA_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/2_interior_bright_high_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/2_interior_bright_QMC_2.1.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/3_Interior_default_1.0.5.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/3_Interior_fine_AA_1.0.5.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/3_Interior_high_1.0.8.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/3_interior_QMC_1.0.3.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/default.pps"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
-Source: "./SU_Podium_V26/presets/materials.csv"; DestDir: "{app}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_default_2.0.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_fine_AA_2.0.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_high_2.0.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/1_exterior_QMC_2.0.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/2_interior_bright_default_2.1.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/2_interior_bright_fine_AA_2.1.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/2_interior_bright_high_2.1.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/2_interior_bright_QMC_2.1.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_Interior_default_1.0.5.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_Interior_fine_AA_1.0.5.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_Interior_high_1.0.8.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/3_interior_QMC_1.0.3.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/default.pps"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
+Source: "./SU_Podium_V26/presets/materials.csv"; DestDir: "{commonappdata}/SU_Podium_V26/presets"; Attribs: readonly; Flags:uninsremovereadonly overwritereadonly;
 
 ;podium extras
 Source: SU_Podium_V26/Extras/Cubic/Cubic.so;    DestDir: "{app}/SU_Podium_V26/Extras/Cubic"; Flags: ignoreversion
