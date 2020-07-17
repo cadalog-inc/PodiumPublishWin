@@ -1,18 +1,18 @@
 ; -- SU_Podium_V2.iss --
-; Install script for  SU Podium V2.6.044 Plus
+; Install script for  SU Podium V2.6.045 Plus
 
- #define AppVersion "2.6.044"
+ #define AppVersion "2.6.045"
 
 [Setup]
 AppId={{F79F91FD-C2D3-4B26-87E2-AF54D6510753}
-AppName= SU2019 Podium V2.6.044 Plus
-AppVerName= SU2019 Podium V2.6.044 Plus {#AppVersion}
+AppName= SU2019 Podium V2.6.045 Plus
+AppVerName= SU2019 Podium V2.6.045 Plus {#AppVersion}
 AppVersion={#AppVersion}
 VersionInfoVersion={#AppVersion}
 UsePreviousAppDir=no
 DefaultDirName={commonappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins
 DirExistsWarning=no
-DefaultGroupName= SU Podium V2.6.044 Plus
+DefaultGroupName= SU Podium V2.6.045 Plus
 UninstallFilesDir={app}\SU_Podium_V26\SU_Podium_V26\uninst
 Compression=zip
 SolidCompression=yes
