@@ -5,12 +5,12 @@
 
 [Setup]
 AppId={{F79F91FD-C2D3-4B26-87E2-AF54D6510753}
-AppName= SU2019 Podium V2.6.046 Plus
-AppVerName= SU2019 Podium V2.6.046 Plus {#AppVersion}
+AppName= SU2021 Podium V2.6.046 Plus
+AppVerName= SU2021 Podium V2.6.046 Plus {#AppVersion}
 AppVersion={#AppVersion}
 VersionInfoVersion={#AppVersion}
 UsePreviousAppDir=no
-DefaultDirName={commonappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins
+DefaultDirName={commonappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins
 DirExistsWarning=no
 DefaultGroupName= SU Podium V2.6.046 Plus
 UninstallFilesDir={app}\SU_Podium_V26\SU_Podium_V26\uninst
@@ -22,7 +22,7 @@ DisableWelcomePage=no
 ShowLanguageDialog=yes
 AppPublisher=Cadalog Inc.
 AppPublisherURL=http://www.cadalog.com/
-OutputBaseFilename=SU2019_Podium_V{#AppVersion}_x64
+OutputBaseFilename=SU2021_Podium_V{#AppVersion}_x64
 ShowUndisplayableLanguages=no
 DisableProgramGroupPage=yes
 LicenseFile=license.txt
@@ -41,21 +41,21 @@ cht.BeveledLabel=ChineseTraditional
 
 [InstallDelete]
 ; Type: files; Name: "{app}/SU_Podium_V26/presets/*";
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\PodiumExtras"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\PodiumExtras.rb"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\SU_Podium_V26"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\SU_Podium_V26.rb"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\SU_Podium_V25"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\SU_Podium_V25.rb"
-Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2019\SketchUp\Styles\Podium"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\PodiumExtras"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\PodiumExtras.rb"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\SU_Podium_V26"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\SU_Podium_V26.rb"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\SU_Podium_V25"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\SU_Podium_V25.rb"
+Type: filesandordirs; Name: "{userappdata}\SketchUp\SketchUp 2021\SketchUp\Styles\Podium"
 
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\PodiumExtras"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\PodiumExtras.rb"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\SU_Podium_V26"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\SU_Podium_V26.rb"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\SU_Podium_V25"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2019\SketchUp\Plugins\SU_Podium_V25.rb"
-Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2019\SketchUp\Styles\Podium"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\PodiumExtras"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\PodiumExtras.rb"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\SU_Podium_V26"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\SU_Podium_V26.rb"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\SU_Podium_V25"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2021\SketchUp\Plugins\SU_Podium_V25.rb"
+Type: filesandordirs; Name: "{commonappdata}\SketchUp\SketchUp 2021\SketchUp\Styles\Podium"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Files]
@@ -122,7 +122,6 @@ Source: "./SU_Podium_V26/presets/materials.csv"; DestDir: "{commonappdata}/SU_Po
 Source: SU_Podium_V26/Extras/Cubic/Cubic.so;    DestDir: "{app}/SU_Podium_V26/Extras/Cubic"; Flags: ignoreversion
 Source: SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes/GenerateAllScenes.so;   DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumGenerateAllScenes"; Flags: ignoreversion
 Source: SU_Podium_V26/Extras/SU_PodiumLightFixtureOutliner/LightFixtureOutliner.so; DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumLightFixtureOutliner"; Flags: ignoreversion
-Source: SU_Podium_V26/Extras/SU_PodiumRenderAllScenes/RenderAllScenes.so;   DestDir: "{app}/SU_Podium_V26/Extras/SU_PodiumRenderAllScenes"; Flags: ignoreversion
 Source: SU_Podium_V26/Extras/*; DestDir: "{app}/SU_Podium_V26/Extras/"; Flags: ignoreversion
 
 [Icons]
